@@ -5,9 +5,10 @@ Prática de linguagem Python com utilização de:
 - Funções
 - Formatação e Cores
 - Try Except
+- Tabulate
 
 O código foi desenvolvido em PyCharm mas pode ser testado no Repl:   
-[REPL.IT @Gesiane: ChatBot Pizzaria](https://ChatBot-Pizzaria.gesiane.repl.run)
+[REPL.IT @Gesiane: ChatBot Pizzaria](https://repl.it/@Gesiane/ChatBot-Pizzaria)
 
 Seguem algumas imagens do programa em execução:
 - Opção de escolha no cardápio:
