@@ -1,6 +1,50 @@
 from tabulate import tabulate
 from cores import colors
 
+def tamanho_pizza():
+    opceosDeTamanhos = [(1,'Pequena (20cm)','+1.00R$'),
+                        (2,'Média (25cm)','+1.25R$'),
+                        (3,'Grande (35cm)','+1.50R$'),
+                        (4,'Família (50cm)','+2.50R$')
+    ]
+
+    cabecalhoDosTamanhos = ['Código', 'Tamanho', 'Preço à adicionar']
+
+    print("Nós temos 4 tamanhos de pizza:", '\n')
+    print(tabulate(opceosDeTamanhos, headers=cabecalhoDosTamanhos))
+
+    print("Digite o código do tamanho da pizza que gostaria:", '\n')
+
+    tam = int(input(">> "))
+    tamanho = opceosDeTamanhos[tam-1][2]
+    precoDaMassa = float(tamanho[1:5])
+
+    return precoDaMassa
+
+
+
+def recheio_borda():
+    print("Gostaria de bordas recheadas?", '\n',
+          colors.yellow,"1",colors.reset,"- Não, obrigado.", '\n',
+          colors.yellow,"2",colors.reset,"- Sim, com mussarela (+0.50R$)", '\n',
+          colors.yellow,"3",colors.reset,"- Sim, com Cheddar (+0.70R$)")
+
+    borda: int = int(input(">> "))
+
+    if borda >= 4:
+        print(fundoVermelho(">>Escolha inválida. Tente novamente.<<"))
+        return recheio_borda()
+    else:
+        if borda == 1:
+             precoDaBorda = 0
+        elif borda == 2:
+            precoDaBorda = 0.50
+        else:
+             precoDaBorda = 0.70
+
+    return precoDaBorda
+
+
 def rechearPizza():
     print('Escolha os ingredientes para montar a sua pizza:', '\n')
     opcoesDeRecheio = [
@@ -79,3 +123,6 @@ def rechearPizza():
     elif decisao == '9':
         return rechearPizza()
 
+def somandoAPizzaMontada(valorMassa, tipoDeBorda, totalDosRecheios):
+    total = float(valorMassa + tipoDeBorda + totalDosRecheios)
+    print('O total a pagar é de:',colors.yellow, total, 'R$', colors.reset)

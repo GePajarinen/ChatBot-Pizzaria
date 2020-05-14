@@ -1,7 +1,4 @@
-from tamanhoPizza import tamanho_pizza
-from recheioBordas import recheio_borda
-from recheandoPizza import rechearPizza
-from somandoPizzaMontada import somandoAPizzaMontada
+from funcoesMontandoPizza import tamanho_pizza, recheio_borda, rechearPizza, somandoAPizzaMontada
 
 def montar_pizza():
 

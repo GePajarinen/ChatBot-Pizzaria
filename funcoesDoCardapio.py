@@ -1,6 +1,7 @@
+
 from tabulate import tabulate
 from cores import colors
-from somaDoCardapio import somandoDoCardapio
+
 
 def ver_cardapio():
 
@@ -34,3 +35,8 @@ def ver_cardapio():
     indexDoTamanho = int(escolhaDoTamanho)+2
 
     somandoDoCardapio(indexDaPizza, listadepizzas, indexDoTamanho)
+
+
+def somandoDoCardapio(indexDaPizza, lista, tamanhoDaPizza):
+        total = lista[indexDaPizza][tamanhoDaPizza]
+        print('O Total do seu pedido é de:', colors.yellow, total)

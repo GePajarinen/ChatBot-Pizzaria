@@ -1,5 +1,5 @@
 from cores import colors
-from cardapio import ver_cardapio
+from funcoesDoCardapio import ver_cardapio
 from montarPizza import montar_pizza
 
 def cardapio_ou_montar():
