@@ -8,7 +8,7 @@ Prática de linguagem Python com utilização de:
 - Tabulate
 
 O código foi desenvolvido em PyCharm mas pode ser testado no Repl:   
-[REPL.IT @Gesiane: ChatBot Pizzaria](https://repl.it/@Gesiane/ChatBot-Pizzaria)
+[![Run on Repl.it](https://repl.it/badge/github/GePajarinen/ChatBot-Pizzaria)](https://repl.it/@Gesiane/ChatBot-Pizzaria)   
 
 Seguem algumas imagens do programa em execução:
 - Opção de escolha no cardápio:
