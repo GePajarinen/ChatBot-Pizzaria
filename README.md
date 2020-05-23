@@ -4,8 +4,8 @@ Chat de auto atendimento
 Prática de linguagem Python com utilização de:
 - Funções
 - Formatação e Cores
-- Try Except
-- Tabulate
+- Try | Except
+- Lib. Tabulate
 
 O código foi desenvolvido em PyCharm mas pode ser testado no Repl:   
 [![Run on Repl.it](https://repl.it/badge/github/GePajarinen/ChatBot-Pizzaria)](https://repl.it/@Gesiane/ChatBot-Pizzaria)   
