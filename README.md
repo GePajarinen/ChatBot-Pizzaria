@@ -1,7 +1,7 @@
 # ChatBot-Pizzaria
-Chat de auto atendimento 
+Programa de auto atendimento 
 
-Prática de linguagem Python com utilização de:
+Prática em linguagem Python com utilização de:
 - Funções
 - Formatação e Cores
 - Try | Except
