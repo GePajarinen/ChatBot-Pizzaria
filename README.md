@@ -13,14 +13,17 @@ O código foi desenvolvido em PyCharm mas pode ser testado no Repl:
 Seguem algumas imagens do programa em execução:
 - Opção de escolha no cardápio:
 <p align="center">
- <kbd>
   <img src="https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/1-1.png?raw=true">
   <img src="https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/1-2.png?raw=true">
- </kbd>
 </p>
 
 - Opção de montar a própria pizza:   
-
-![Code running](https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/2-1.png?raw=true)  
-![Code running](https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/2-2.png?raw=true)  
-![Code running](https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/2-3.png?raw=true)   
+<p align="center">
+  <img src="https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/2-1.png?raw=true"> 
+</p>
+<p align="center">
+  <img src="https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/2-2.png?raw=true">
+</p>
+<p align="center">
+  <img src="https://github.com/GePajarinen/ChatBot-Pizzaria/blob/master/pictures/2-3.png?raw=true">
+</p>
